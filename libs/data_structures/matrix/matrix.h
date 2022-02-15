@@ -13,5 +13,10 @@ typedef struct position{
     int colIndex;
 };
 
+matrix getMemMatrix(int nRows, int nCols);
+
+matrix *getMemArrayOfMatrices(int nMatrices, int nRows, int nCols);
+
+void freeMemMatrices(matrix *ms, int nMatrices);
 
 #endif
